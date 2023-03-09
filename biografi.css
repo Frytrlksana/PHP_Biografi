@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    min-height: 3000px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Poppins';
+    transition: all 0.3s ease;
+    background-color: #000000;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: #4e2659;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    padding-right: 800px;
+	margin: 50px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: #f90000;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span {
+    color: #fff;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #4e2659;
+}
+
+.navbar.sticky .menu li a:hover {
+	color:#fff;
+}
+
+#home{
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about{
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.about .p{
+    margin-right: 10%;
+}
+
+#contact{   
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.navbar .menu{
+    text-align: right;
+}
+
+h1{
+    color: #fefefe;
+    font-family: 'poppins';
+}
+
+p{
+    color: white ;
+}
+
+span{
+    color: #f90000;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #ff0000c3;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.skill-bar {
+    background-color: #ffffff;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.skill-level {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 70%;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+.skill-label {
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'poppins';
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    min-height: 700px;
+    width: 100%;
+    padding-top: 20%;
+    background-color: black;
+}
+.contact h1{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    font-family: 'poppins';
+    margin-bottom: 0px;
+}
+
+.sosial{
+    text-align: center;
+    margin-left: 0;
+    margin-top: 25px;
+}
+
+.sosial a{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+.sosial a:hover{
+    color: #f9004d;
+}
